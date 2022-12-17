@@ -19,8 +19,8 @@ function loadFromStorage() {
 }
 
 function createFeedbackObj() {
-  email = form.elements.email.value;
-  message = form.elements.message.value;
+  const email = form.elements.email.value;
+  const message = form.elements.message.value;
   return { email, message };
 }
 
